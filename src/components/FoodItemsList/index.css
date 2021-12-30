@@ -1,0 +1,8 @@
+.food-items-container {
+  list-style-type: none;
+  padding: 16px;
+  padding-top: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

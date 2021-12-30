@@ -1,0 +1,270 @@
+.cart-items-list {
+  list-style-type: none;
+  padding: 16px;
+  border-style: dashed;
+  border-width: 0;
+  border-bottom-width: 1px;
+  border-color: #cbd2d9;
+
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.cart-list-item {
+  width: 100%;
+  display: flex;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.cart-item-image {
+  width: 160px;
+  height: 100px;
+  border-radius: 8px;
+  margin-right: 32px;
+}
+
+.cart-item-name {
+  margin: 0;
+  margin-top: 6px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+
+  letter-spacing: 0.2px;
+
+  color: #183b56;
+}
+
+.cart-item-description {
+  margin-left: 16px;
+}
+
+.cart-item-cost {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffa412;
+  margin: 0;
+  margin-top: 6px;
+}
+
+.cart-total-container {
+  padding: 16px;
+  padding-top: 0;
+}
+
+.cart-item-order-heading {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  /* Basic / 900 */
+
+  color: #3e4c59;
+}
+
+.order-and-amount {
+  display: flex;
+  justify-content: space-between;
+}
+
+.payment-successful-image {
+  height: 64px;
+  width: 64px;
+}
+
+.payment-successful-desc {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  text-align: center;
+
+  /* Light / blue-gray / 500 */
+
+  color: #64748b;
+}
+
+.payment-successful-heading {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+
+  text-align: center;
+
+  /* Light / blue-gray / 800 */
+
+  color: #1e293b;
+}
+
+.payment-successful-container {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cart-amount {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  text-align: right;
+
+  /* Basic / 900 */
+
+  color: #3e4c59;
+  margin-right: 32px;
+}
+
+.cart-button-container {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 32px;
+}
+
+.place-order-button {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height, or 133% */
+
+  /* Light / base / white */
+
+  color: #ffffff;
+  background-color: #ffa412;
+  border-width: 0;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.cart-item-sub-headings-container {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-items-list {
+    margin-left: 64px;
+    margin-right: 64px;
+    background-color: #0b69ff10;
+    margin-bottom: 0;
+    min-height: 60vh;
+  }
+
+  .cart-total-container {
+    margin-left: 64px;
+    margin-right: 64px;
+    background-color: #0b69ff10;
+    margin-bottom: 16px;
+  }
+  .cart-item-sub-headings-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .cart-item-subheading {
+    margin: 6px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height, or 120% */
+
+    letter-spacing: 0.2px;
+
+    /* Light / blue-gray / 600 */
+
+    color: #475569;
+  }
+  .item {
+    text-align: center;
+    width: 40%;
+  }
+  .cart-item-description {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+  }
+  .cart-item-name {
+    margin-bottom: auto;
+    margin-top: auto;
+    width: 120px;
+  }
+  .cart-item-cost {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+}
+
+.cart-empty-view {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.empty-cart-responsive-container {
+  width: 340px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.empty-cart-image {
+  width: 100%;
+}
+
+.no-orders-yet {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  /* identical to box height, or 160% */
+
+  text-align: center;
+
+  /* Light / blue-gray / 800 */
+
+  color: #1e293b;
+  margin: 12px;
+  margin-bottom: 0;
+}
+
+.empty-view-description {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  text-align: center;
+
+  /* Light / blue-gray / 500 */
+
+  color: #64748b;
+  margin: 12px;
+}

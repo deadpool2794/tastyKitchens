@@ -1,0 +1,141 @@
+.carousel-image {
+  width: 100%;
+  height: 188px;
+}
+.slick-dots {
+  bottom: 16px;
+  padding: 0;
+}
+
+.slick-dots li button:before {
+  color: #ffffff;
+  font-size: 4px;
+  opacity: 1;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #fff;
+  opacity: 0.8;
+  font-size: 8px;
+}
+
+.popular-restaurants-container {
+  padding: 16px;
+  padding-top: 0;
+}
+
+.popular-restaurants-heading {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+
+  color: #183b56;
+  margin-bottom: 0px;
+}
+
+.sort-by-select {
+  display: flex;
+}
+
+.sort-icon {
+  color: #475569;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 12px;
+}
+
+.sort-by {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #475569;
+  margin: 6px;
+  margin-left: 0;
+  margin-right: 0;
+  border-width: 0;
+  outline: none;
+  display: flex;
+  align-items: center;
+}
+
+.popular-restaurants-description {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+  color: #64748b;
+}
+
+.page-no-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.page-navigate-buttons {
+  background-color: transparent;
+  border-width: 0;
+  height: 24px;
+  width: 24px;
+  border-style: solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-width: 1px;
+  margin-left: 12px;
+  margin-right: 12px;
+  cursor: pointer;
+}
+
+.home-page-navigate-icons {
+  color: #334155;
+}
+
+.page-no-para {
+  font-family: Bree Serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  text-align: center;
+
+  /* Light / blue-gray / 700 */
+
+  color: #334155;
+  margin: 0;
+}
+
+@media screen and (min-width: 792px) {
+  .home-container {
+    padding-left: 64px;
+    padding-right: 64px;
+  }
+
+  .carousel-image {
+    width: 100%;
+    height: 320px;
+  }
+
+  .desc-and-sort {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .popular-restaurants-container {
+    padding: 32px;
+    border-style: solid;
+    padding-bottom: 0;
+
+    border: 1px solid #cbd2d9;
+    border-width: 0;
+    border-bottom-width: 1px;
+  }
+}

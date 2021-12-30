@@ -1,0 +1,120 @@
+.header-nav-container {
+  height: 10vh;
+  padding-left: 12px;
+  padding-right: 12px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #f8fafc;
+}
+
+.link-logo {
+  margin: auto;
+}
+
+.header-logo-name-container {
+  display: flex;
+}
+
+.header-logo {
+  width: 34.81px;
+  margin: auto;
+}
+
+.header-website-name {
+  font-family: DM Sans;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f7931e;
+  margin: auto;
+  margin-left: 6px;
+}
+
+.header-icon {
+  margin: auto;
+  margin-right: 0;
+  color: #231f20;
+  cursor: pointer;
+}
+
+.header-mobile-menu {
+  height: 10vh;
+  padding-left: 12px;
+  padding-right: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-options {
+  display: flex;
+}
+
+.header-link {
+  text-decoration: unset;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.header-option-name {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: -0.355556px;
+  color: #334155;
+  margin-right: 12px;
+}
+
+.selected {
+  color: #f7931e;
+}
+
+.header-button {
+  background-color: transparent;
+  border-width: 0;
+  outline: none;
+  cursor: pointer;
+}
+
+.logout-button {
+  width: 73px;
+  height: 32px;
+  margin: auto;
+  margin-left: 6px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffffff;
+  background: #f7931e;
+  border-radius: 8px;
+  border-width: 0;
+  outline: none;
+}
+.header-md-menu {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .header-nav-container {
+    padding-left: 64px;
+    padding-right: 64px;
+  }
+
+  .header-button {
+    display: none;
+  }
+  .header-md-menu {
+    display: block;
+  }
+  .menu-options {
+    height: 100%;
+  }
+  .d-none {
+    display: none;
+  }
+}

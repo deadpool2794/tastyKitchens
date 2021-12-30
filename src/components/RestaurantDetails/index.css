@@ -1,0 +1,142 @@
+.restaurant-details-banner {
+  background-image: url('https://res.cloudinary.com/drobgtern/image/upload/v1640793037/Group_7444_y2h6ei.png');
+  height: 188px;
+  background-size: cover;
+}
+
+.restaurant-details-banner-heading {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  margin: 6px;
+  margin-left: 0;
+}
+
+.restaurant-details-description-container {
+  position: absolute;
+  width: 175px;
+  height: 124px;
+  right: 50px;
+
+  right: 30px;
+  top: 72px;
+}
+
+.restaurant-details-banner-cuisine {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffffff;
+  margin: 6px;
+  margin-left: 0;
+}
+
+.restaurant-details-banner-location {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffffff;
+  margin: 6px;
+  margin-left: 0;
+}
+
+.restaurant-details-rating-cost-container {
+  display: flex;
+}
+
+.restaurant-details-rating-container {
+  border-style: solid;
+  border-width: 0;
+  border-right-width: 1px;
+  padding-right: 16px;
+  color: #e2e8f0;
+}
+
+.restaurant-details-rating {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  margin: 6px;
+  margin-left: 0;
+  margin-bottom: 4px;
+}
+
+.restaurant-details-reviews-count {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: #e2e8f0;
+  margin: 0;
+}
+.restaurant-details-cost-container {
+  padding-left: 16px;
+}
+
+.restaurant-details-cost {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  margin: 6px;
+  margin-left: 0;
+  margin-bottom: 4px;
+}
+
+.restaurant-details-cost-for-two {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: #e2e8f0;
+  margin: 0;
+}
+
+.restaurant-details-image {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .restaurant-details-banner {
+    background-image: url('https://res.cloudinary.com/drobgtern/image/upload/v1640796097/Frame_279_sfjids.png');
+    background-size: cover;
+    height: 344px;
+    display: flex;
+  }
+  .restaurant-details-image {
+    display: block;
+    height: 240px;
+    margin: auto;
+    margin-top: 38px;
+    border-radius: 8px;
+  }
+
+  .restaurant-details-description-container {
+    position: relative;
+    margin: auto;
+    margin-top: 0;
+  }
+}
